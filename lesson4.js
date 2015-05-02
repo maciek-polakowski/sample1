@@ -9,7 +9,7 @@ angular.module('invoice3', ['finance3'])
         return currencyConverter.convert(this.qty * this.cost, this.inCurr.trim(), outCurr.trim()); 
 	  };
       
-	  this.pay = function pay() { window.alert("Thanks a lot!"); }; 
+	  this.pay = function pay() { window.alert("Thanks a lot again!"); }; 
     }]
    );
 
