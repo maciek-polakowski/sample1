@@ -12,6 +12,6 @@ angular.module('invoice1', []) .controller('InvoiceController',
    this.convertCurrency = function convertCurrency(amount, inCurr, outCurr) 
      { return amount * this.usdToForeignRates[outCurr] / this.usdToForeignRates[inCurr]; }; 
    
-   this.pay = function pay() { window.alert("Thanks 2!"); }; 
+   this.pay = function pay() { window.alert("Thanks 223!"); }; 
  }
 );
