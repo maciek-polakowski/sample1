@@ -22,7 +22,7 @@ angular.module('invoice2', ['finance2'])
        this.total = function total(outCurr) { 
          return currencyConverter.convert(this.qty * this.cost, this.inCurr.trim(), outCurr.trim()); 
        }; 
-       this.pay = function pay() { window.alert("Thanks!"); }; 
+       this.pay = function pay() { window.alert("Thanks 33!"); }; 
 } ]);
 
 
